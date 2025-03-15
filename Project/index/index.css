@@ -40,7 +40,7 @@ nav ul li a{
 }
 
 .top {
-    background: url('/Project/picture/Matcha\ Lover.jpg') no-repeat center;
+    background: url('https://github.com/superworgurn/matcha-sell/blob/main/Project/picture/Matcha%20Lover.jpg?raw=true') no-repeat center;
     background-size: cover;
     height: 300px;
     display: flex;
@@ -220,8 +220,8 @@ h2 {
 }
 
 .highlight-image img {
-    width: 180px;
-    height: auto; /* เปลี่ยนเป็น auto เพื่อรักษาสัดส่วนภาพ */
+    width: 190px;
+    height: 190px; /* เปลี่ยนเป็น auto เพื่อรักษาสัดส่วนภาพ */
     object-fit: cover;
     border-radius: 10px; /* เพิ่ม border-radius ให้รูปภาพเข้ากับกรอบ */
 }
