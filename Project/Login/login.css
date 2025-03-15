@@ -7,6 +7,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: url('/Project/picture/_bea1a3cd-fa2c-473b-bdb0-10bfe58d74f3.jpg');
+    
 }
 
 .login-container {
@@ -15,12 +17,13 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:space-between;
 }
+
 .input-container{
     display: flex;
     flex-direction: column;
@@ -83,4 +86,16 @@ button:hover {
 
 #popuptitle{
     text-align: center;
+}
+
+.forget{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 15px;
+    margin-top: -40px;
+    margin-left: 190px;
+    color: #007bff;
+    text-decoration: #007bff;
+
 }

@@ -19,9 +19,7 @@ const checkuser = (username_input,password) =>{
         overlay.style.display="block";
     }else if (username_input != "admin" || password != "admin1234"){
         alert("ข้อมูลไม่ถูกต้อง");
-        alert("Useradmin/Password admin1234");
-
-        
+  
     }else{
         poptittle.innerText="SUCCESS";
         poptittle.style.color="green";
@@ -46,10 +44,8 @@ const closepopup = () =>{
     overlay.style.display="none";
 }
 
+const forget = () =>{
+    alert("User admin/Password admin1234");
+}
 
 
-
-// const hello2 = () =>{
-//     const password = document.getElementById("password").value;
-//     console.log("Hello" + password);
-// };
